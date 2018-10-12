@@ -10,3 +10,5 @@ install:
 script:
   - pytest
   - find bin sausage_machine test -name '*.py' -print0 | xargs -0 flake8 --ignore E402,W504
+notifications:
+    slack: chariteviridae:nuouHFWL1B75loUMiBwlKHmF
