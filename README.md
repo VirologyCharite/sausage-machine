@@ -39,4 +39,4 @@ The `bin` directory of this repo contains the following Python scripts:
 ## Pipeline specification
 
 A pipeline run is scheduled according to a specification file in JSON
-format
+format...
